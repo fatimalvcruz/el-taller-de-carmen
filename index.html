@@ -8,121 +8,168 @@
     <meta name="keywords"  content="cotura, costura muñecos, pintura"> 
     <meta name="author" content="Fátima Álvarez">
     <title>El taller de Carmen</title>
-    <link rel="stylesheet" href="css/main.css" media="screen">
+    <link rel="stylesheet" href="css/main.css"  type="text/css"   media="screen">
 </head>
+
 <body>
     <div class="wrapper">
-        <header> <!--logo y navegción-->
-            <nav>
-                <img  id="logo" src="/imagenes/logo-el-taller-de-carmen.png" alt="Logo" >
-                <ul>
-                    <li><a href="#" title="costura">Costura</a></li>
-                    <li><a href="#" title="costura muñecos">Costura muñecos</a></li>
-                    <li><a href="#" title="pintura">Pintura</a></li>
+        <header class="header-header"> <!--logo y navegción-->
+            <nav role="navigation" class="navigation">
+                <img id="logo" src="/imagenes/logo-el-taller-de-carmen.png" width="100%" alt="Logo">
+                <ul class="menu">
+                    <li><a href="#section-costura" title="costura">Costura</a></li>
+                    <li><a href="#section-muñecos" title="costura muñecos">Costura muñecos</a></li>
+                    <li><a href="#costura-pintura"" title="pintura">Pintura</a></li>
                 </ul>
-            </nav>
+            </nav>    
         </header>
-        <article role="article"><!--Texto Bienvenida-->
-            <div id="banner">
-                <h1>El taller de Carmen</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsam perferendis debitis harum neque 
-                    hic aperiam aliquam! Labore officia sequi assumenda, 
-                    amet molestiae voluptas, ratione provident ex hic ipsam natus!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Maxime, tempore? Ad, eligendi recusandae fugiat, nihil neque nesciunt consequatur quae ducimus 
-                    expedita est minus officia odit at, rem officiis iure asperiores!</p>
-            </div>
+        <article role="article" class="banner"><!--Texto Bienvenida-->
+                <h1>Carmen de la Cruz, modista y pintora</h1>
+                <div class="watermark">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsam perferendis debitis harum neque 
+                        hic aperiam aliquam! Labore officia sequi assumenda, 
+                        amet molestiae voluptas, ratione provident ex hic ipsam natus!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsam perferendis debitis harum neque 
+                        hic aperiam aliquam! Labore officia sequi assumenda, 
+                        amet molestiae voluptas, ratione provident ex hic ipsam natus!</p>
+                </div>
         </article>
 
         <main role="main"> <!-- contenido principa-->
-            <section>
-                <header>
-                    <h2>Costura</h2>
+            <section class="section" id="section-costura" >
+                <header class="header-section">
+                  <h2> Sección de Costura</h2>
+                  <hr>
                 </header>
-                <div> <!-- Fila-->
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
+                <div class="row"> <!-- row-->
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-1">
+                            <h2>El vestido no se q...</h2>
+                            <img  id="picture" class="picture" src="imagenes/vestido-1.gif"  width="100%" alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
                     </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img   src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-2">
+                            <h2>El vestido no se q...</h2>
+                                <img  class="picture" src="imagenes/vestido-1.gif" width="100%"alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
                     </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q..mmm.</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se... q...</h3>
-                        <img   src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                </div>
-            </section>
-            <section>
-                <header>
-                    <h2>Costura-muñecos</h2>
-                </header>
-                <div> <!-- Fila-->
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif"" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                </div>
-            </section>
-            <section>
-                <header>
-                    <h2>Pintura</h2>
-                </header>
-                <div> <!-- Fila-->
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img   src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img " src="imagenes/vestido-1.gif"" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif"" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                    <article role="article"> <!--Columna-->
-                        <h3>El vestido no se q...</h3>
-                        <img  src="imagenes/vestido-1.gif" alt="vestido">
-                        <p>El vestido tralara</p>
-                    </article>
-                </div>
+                    </div>
+                    <div class="row"> <!-- row-->
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-3">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-4">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        </div>
             </section>
             
+            <section class="section" id="section-muñecos" >
+                <header class="header-section">
+                  <h2> Sección de Costura para muñecos</h2>
+                  <hr>
+                </header>
+                <div class="row"> <!-- row-->
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-5">
+                            <h2>El vestido no se q...</h2>
+                            <img  id="picture" class="picture" src="imagenes/vestido-1.gif"  width="100%" alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
+                    </article>
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-6">
+                            <h2>El vestido no se q...</h2>
+                                <img  class="picture" src="imagenes/vestido-1.gif" width="100%"alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
+                    </article>
+                    </div>
+                    <div class="row"> <!-- row-->
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-7">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-8">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        </div>
+            </section>
+
+            <section class="section" id="costura-pintura" >
+                <header class="header-section">
+                  <h2> Sección de Pintura</h2>
+                  <hr>
+                </header>
+                <div class="row"> <!-- row-->
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-9">
+                            <h2>El vestido no se q...</h2>
+                            <img  id="picture" class="picture" src="imagenes/vestido-1.gif"  width="100%" alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
+                    </article>
+                    <article role="article" class="column"> <!--Columna-->
+                        <div class="c-10">
+                            <h2>El vestido no se q...</h2>
+                                <img  class="picture" src="imagenes/vestido-1.gif" width="100%"alt="vestido">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                        </div>
+                    </article>
+                    </div>
+                    <div class="row"> <!-- row-->
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-11">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                     Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        <article role="article" class="column"> <!--Columna-->
+                            <div class="c-12">
+                                <h2>El vestido no se q...</h2>
+                                    <img  class="picture" src="imagenes/vestido-1.gif" width="100%" alt="vestido">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Molestiae harum animi quam nisi, iusto fugiat. Aperiam veritatis illo iste, aliquam consequatur, optio eveniet sit nisi possimus nam voluptate, exercitationem cum.</p>
+                            </div>
+                        </article>
+                        </div>
+            </section>
         </main>
     </div>
-    <footer role="contentinfo">
-        <p>Copyright © 2022</p>
-        <p>Made with love by <a href="fatimalvcruz@gmail.com">Fátima </a> </p>
 
+    <footer role="contentinfo" class="footer">
+        <p>Copyright © 2022</p>
+        <p>Made with <i class="fa-solid fa-heart"></i> by <a href="fatimalvcruz@gmail.com">Fátima </a> </p>
     </footer>
     
 </body>

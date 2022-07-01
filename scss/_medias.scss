@@ -1,0 +1,183 @@
+
+$font-1:300;
+$font-2:400;
+$font-3:700;
+
+$main-white-color: #fff;
+$main-grey-color: #eae8e8;
+$main-black-color: black;
+$main-blue-color: #1A2A5A;
+$second-blue-color: #6D83B8;
+$third-dark-color: #8EA1CA;
+$main-green-color: #D1D562;
+$second-green-color: #689240;
+
+
+
+
+/*small phone*/
+
+@media only screen and (min-width : 576px) {
+    body{
+       
+        .wrapper{
+            width: 95%;
+            h1{
+                font-size: 2.4em;
+            }
+            h2{
+                font-size: 1.8em;
+            }
+            h3{
+                font-size: 1.5em;
+            }
+            p{
+                font-size: 1.4em;
+            
+            }
+            img{
+                margin-bottom: 35px;
+            }
+            
+            ul{
+                    display: flex;
+                    justify-content: space-around;
+                    margin-bottom: 55px;
+                   
+                    li{
+                        font-size: 1.3em;
+                    }       
+            }
+            
+        }
+
+        .footer{
+            font-size: 1.4em;
+        }
+    }
+}
+
+
+ /*Tablets*/
+
+ @media only screen and (min-width : 720px) {
+  
+    body{
+        .wrapper{
+            
+            h1{
+                font-size: 2.4em;
+            }
+            h2{
+                font-size: 1.8em;
+            }
+            h3{
+                font-size: 1.5em;
+            }
+            p{
+                font-size: 1.4em;
+            
+            }
+            .header-header{
+                margin-bottom:25px ;
+                nav{
+                    display: flex;
+                    margin-top: 35px;
+                    justify-content: flex-end;
+                    
+                    img{
+                        width: 45%;
+                    }
+                    
+                    ul{
+                        margin-top: 20px;
+                        justify-content: right;
+                        width: 65%;
+                        li{
+                            padding-left: 23px;
+                        }    
+                    }   
+                
+                }
+
+            }
+            .banner{
+                h1{
+                    margin-bottom: 21px;
+                }
+            }
+            main{
+                .section{
+                    .row{
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+                        margin-bottom: 100px;
+                    
+                        .column{
+                            margin:0 auto;
+                            width: 49%;
+                            
+                        }
+                    }
+                }
+            }     
+        }
+
+        .footer{
+            font-size: 1.4em;
+        }
+    }
+}
+   
+
+ /*Desk*/
+
+@media only screen and (min-width: 1200px){
+
+    body{ 
+        .wrapper{
+            width: 99%;
+            h1{
+                font-size: 3.8em;
+            }
+            h2{
+                font-size: 2.6em;
+            }
+            p{
+                font-size: 2.2em;
+            
+            }
+            .header-header{
+                width: 90%;
+                margin-bottom: 100px;
+                nav{
+                    img{
+                        width: 30%;
+
+                    }
+                        li{
+                            font-size: 1.6em;
+                    }
+                }
+               
+            }
+            .banner{
+                margin-bottom: 60px;
+                h1{
+                    margin-bottom: 31px;
+                }
+                .watermark{
+                    p{
+                        width: 90%;
+                    }
+
+                }
+               
+            }
+        }
+    }
+
+    
+}
+    
