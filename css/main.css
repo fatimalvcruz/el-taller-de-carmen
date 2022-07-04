@@ -62,7 +62,6 @@ body {
   body .wrapper {
     width: 100%;
     margin: 0 auto;
-    margin-top: 20px;
     position: relative;
     /*header*/
     /*3 Banner*/
@@ -78,8 +77,10 @@ body {
       line-height: 1.4em; }
     body .wrapper .header-header {
       width: 100%;
-      margin: 0 auto;
-      margin-bottom: 20px; }
+      margin: 0 auto 20px auto;
+      background-color: #ffffff;
+      position: relative;
+      z-index: 200; }
       body .wrapper .header-header nav {
         margin: 0 auto;
         width: 100%;
@@ -100,7 +101,30 @@ body {
           body .wrapper .header-header nav ul a:hover {
             color: #689240;
             text-decoration: none; }
+    body .wrapper .small-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+      padding: 20px;
+      background-color: #fff; }
+      body .wrapper .small-header ul {
+        text-align: center;
+        font-size: 1.3em; }
+        body .wrapper .small-header ul li {
+          font-weight: 400;
+          color: #1A2A5A; }
+        body .wrapper .small-header ul a {
+          cursor: pointer;
+          text-decoration: none;
+          color: inherit; }
+        body .wrapper .small-header ul a:hover {
+          color: #689240;
+          text-decoration: none; }
     body .wrapper .banner {
+      margin: 0;
+      padding: 0;
       margin: 0 auto;
       margin-bottom: 25px;
       width: 100%; }
@@ -247,28 +271,42 @@ body {
     body .footer a {
       text-decoration: none; }
 
+/* .small-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 30px;
+    background-color: red;
+} */
 /*small phone*/
 @media only screen and (min-width: 576px) {
-  body .wrapper {
-    width: 95%; }
-    body .wrapper h1 {
-      font-size: 2.4em; }
-    body .wrapper h2 {
-      font-size: 1.8em; }
-    body .wrapper h3 {
-      font-size: 1.5em; }
-    body .wrapper p {
-      font-size: 1.4em; }
-    body .wrapper img {
-      margin-bottom: 35px; }
-    body .wrapper ul {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 55px; }
-      body .wrapper ul li {
-        font-size: 1.3em; }
-  body .footer {
-    font-size: 1.4em; } }
+  body {
+    /*  .banner{
+            // padding-top: 25000em;
+            // padding-top: 400px;
+        } */ }
+    body .wrapper {
+      width: 95%; }
+      body .wrapper h1 {
+        font-size: 2.4em; }
+      body .wrapper h2 {
+        font-size: 1.8em; }
+      body .wrapper h3 {
+        font-size: 1.5em; }
+      body .wrapper p {
+        font-size: 1.4em; }
+      body .wrapper img {
+        margin-bottom: 35px; }
+      body .wrapper ul {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 55px; }
+        body .wrapper ul li {
+          font-size: 1.3em; }
+    body .footer {
+      font-size: 1.4em; } }
 
 /*Tablets*/
 @media only screen and (min-width: 720px) {
@@ -284,16 +322,17 @@ body {
     margin-bottom: 25px; }
     body .wrapper .header-header nav {
       display: flex;
-      margin-top: 35px;
+      padding-top: 2.2em;
       justify-content: flex-end; }
       body .wrapper .header-header nav img {
         width: 45%; }
       body .wrapper .header-header nav ul {
         margin-top: 20px;
         justify-content: right;
-        width: 65%; }
+        width: 55%; }
         body .wrapper .header-header nav ul li {
-          padding-left: 23px; }
+          padding-left: 1em;
+          padding-right: 0.5em; }
   body .wrapper .banner h1 {
     margin-bottom: 21px; }
   body .wrapper main .section .row {
@@ -317,16 +356,19 @@ body {
       font-size: 2.6em; }
     body .wrapper p {
       font-size: 2.2em; }
-    body .wrapper .header-header {
-      width: 90%;
-      margin-bottom: 100px; }
+    body .wrapper .header-header nav {
+      width: 90%; }
       body .wrapper .header-header nav img {
         width: 30%; }
-      body .wrapper .header-header nav li {
-        font-size: 1.6em; }
+      body .wrapper .header-header nav ul {
+        padding-left: 7em; }
+        body .wrapper .header-header nav ul li {
+          padding-left: 1em;
+          padding-right: 0.5em;
+          font-size: 1.6em; }
     body .wrapper .banner {
       margin-bottom: 60px; }
       body .wrapper .banner h1 {
-        margin-bottom: 31px; }
+        margin-bottom: 35px; }
       body .wrapper .banner .watermark p {
         width: 90%; } }

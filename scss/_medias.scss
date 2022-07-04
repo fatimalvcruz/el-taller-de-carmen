@@ -14,7 +14,6 @@ $second-green-color: #689240;
 
 
 
-
 /*small phone*/
 
 @media only screen and (min-width : 576px) {
@@ -35,6 +34,7 @@ $second-green-color: #689240;
                 font-size: 1.4em;
             
             }
+           
             img{
                 margin-bottom: 35px;
             }
@@ -50,6 +50,10 @@ $second-green-color: #689240;
             }
             
         }
+       /*  .banner{
+            // padding-top: 25000em;
+            // padding-top: 400px;
+        } */
 
         .footer{
             font-size: 1.4em;
@@ -79,10 +83,10 @@ $second-green-color: #689240;
             
             }
             .header-header{
-                margin-bottom:25px ;
+                margin-bottom:25px;
                 nav{
                     display: flex;
-                    margin-top: 35px;
+                    padding-top: 2.2em;
                     justify-content: flex-end;
                     
                     img{
@@ -92,9 +96,10 @@ $second-green-color: #689240;
                     ul{
                         margin-top: 20px;
                         justify-content: right;
-                        width: 65%;
+                        width: 55%;
                         li{
-                            padding-left: 23px;
+                            padding-left: 1em;
+                            padding-right: 0.5em;
                         }    
                     }   
                 
@@ -149,15 +154,23 @@ $second-green-color: #689240;
             
             }
             .header-header{
-                width: 90%;
-                margin-bottom: 100px;
+               
+           
+                
                 nav{
+                    width: 90%;
                     img{
                         width: 30%;
-
                     }
-                        li{
-                            font-size: 1.6em;
+
+                        ul{
+                            padding-left: 7em;
+                         
+                            li{
+                                padding-left: 1em;
+                                padding-right: 0.5em;
+                                font-size: 1.6em;
+                            } 
                     }
                 }
                
@@ -165,7 +178,7 @@ $second-green-color: #689240;
             .banner{
                 margin-bottom: 60px;
                 h1{
-                    margin-bottom: 31px;
+                    margin-bottom: 35px;
                 }
                 .watermark{
                     p{
