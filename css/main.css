@@ -54,16 +54,18 @@ table {
 4 Main
 5 footer
 */
+/*1 Extra small Phone*/
 body {
   font-family: "Lato", sans-serif;
-  font-size: 100%;
+  font-size: 16px;
   min-width: 320px;
-  height: 100%; }
+  height: 100%;
+  /*5 Footer*/ }
   body .wrapper {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    /*header*/
+    /*2 header*/
     /*3 Banner*/
     /*4 Main*/ }
     body .wrapper h1 {
@@ -304,7 +306,7 @@ body {
         justify-content: space-around;
         margin-bottom: 55px; }
         body .wrapper ul li {
-          font-size: 1.3em; }
+          font-size: 1.2em; }
     body .footer {
       font-size: 1.4em; } }
 
@@ -351,11 +353,11 @@ body {
   body .wrapper {
     width: 99%; }
     body .wrapper h1 {
-      font-size: 3.8em; }
+      font-size: 2.4em; }
     body .wrapper h2 {
-      font-size: 2.6em; }
+      font-size: 1.8em; }
     body .wrapper p {
-      font-size: 2.2em; }
+      font-size: 1.6em; }
     body .wrapper .header-header nav {
       width: 90%; }
       body .wrapper .header-header nav img {
@@ -365,7 +367,7 @@ body {
         body .wrapper .header-header nav ul li {
           padding-left: 1em;
           padding-right: 0.5em;
-          font-size: 1.6em; }
+          font-size: 1.3em; }
     body .wrapper .banner {
       margin-bottom: 60px; }
       body .wrapper .banner h1 {
